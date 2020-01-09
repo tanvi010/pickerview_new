@@ -9,6 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var lblcountry: UILabel!
+    
+    @IBOutlet weak var countryPickerview: UIPickerView!
+    
+    @IBOutlet weak var myToolbar: UIToolbar!
+    
+    
+    @IBAction func selectcountrybtn(_ sender: Any) {
+    }
+    
+    @IBAction func donebtn(_ sender: Any) {
+    }
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
